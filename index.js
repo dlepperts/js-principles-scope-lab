@@ -1,4 +1,5 @@
 var customerName = 'bob'
+const leastFavoriteCustomer = 'some initial value'
 
 function upperCaseCustomerName() {
     customerName = customerName.toLocaleUpperCase()
@@ -13,5 +14,5 @@ function overwriteBestCustomer() {
 }
 
 function changeLeastFavoriteCustomer() {
-    
+    leastFavoriteCustomer = 'some new value'
 }
